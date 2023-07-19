@@ -18,6 +18,10 @@ export class NetworkRegistryClient extends Client {
   public async registerNetwork(types: string[]) {
     return this.callModuleReturn("registerNetwork", { types });
   }
+
+  public async getNetworksByType(type: string) {
+    return this.callModuleReturn("getNetworksByType", { type });
+  }
 }
 
 export const createClient = factory<NetworkRegistryClient>(
