@@ -15,11 +15,8 @@ export class NetworkRegistryClient extends Client {
     return this.callModuleReturn("getNetworkTypes", { module });
   }
 
-  public async registerNetwork(module: string) {
-    const bag = this.getBound(module);
-
-    const ret = await bag.callModule("register");
-    this.handleError(ret);
+  public async registerNetwork(types: string[]) {
+    return this.callModuleReturn("registerNetwork", { types });
   }
 }
 
