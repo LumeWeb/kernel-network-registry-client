@@ -1,3 +1,10 @@
+# [0.1.0-develop.3](https://git.lumeweb.com/LumeWeb/kernel-network-registry-client/compare/v0.1.0-develop.2...v0.1.0-develop.3) (2023-07-19)
+
+
+### Features
+
+* add getNetworksByType ([2ec79e3](https://git.lumeweb.com/LumeWeb/kernel-network-registry-client/commit/2ec79e3242f1fd580973c5d18dab2c2b19d1eece))
+
 # [0.1.0-develop.2](https://git.lumeweb.com/LumeWeb/kernel-network-registry-client/compare/v0.1.0-develop.1...v0.1.0-develop.2) (2023-07-19)
 
 # [0.1.0-develop.1](https://git.lumeweb.com/LumeWeb/kernel-network-registry-client/compare/v0.0.1...v0.1.0-develop.1) (2023-07-19)
