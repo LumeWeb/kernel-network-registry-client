@@ -1,6 +1,6 @@
 import { Client, factory } from "@lumeweb/libkernel/module";
 
-const MODULE = "zduNCDiTvA6GgN6g8huxdwEHPKYiuL1s1MtjdZmhJocUP2AryKACWjYFKV";
+const MODULE = "z3o47gPWZfmPSQYSkbJzfekvzBHsg9AKTQD6vDbARhgPUgw2h2Skt3PabuGj";
 
 export class NetworkRegistryClient extends Client {
   public async registerType(name: string) {
