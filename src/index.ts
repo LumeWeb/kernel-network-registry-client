@@ -22,6 +22,11 @@ export class NetworkRegistryClient extends Client {
   public async getNetworksByType(type: string) {
     return this.callModuleReturn("getNetworksByType", { type });
   }
+  public subscribeToUpdates(cb: () => void) {
+    const [stop] = this.connectModule("subscribeToUpdates", undefined, cb);
+
+    return stop;
+  }
 }
 
 export const createClient = factory<NetworkRegistryClient>(
