@@ -1,4 +1,5 @@
 import { Client, factory } from "@lumeweb/libkernel/module";
+import type { DataFn } from "@lumeweb/libkernel";
 
 const MODULE = "zdiVGkiECt8CT7psN5wsQyNHewyRJLjPhAGwYGTRXPyAPXP21bdupzHyaw";
 
@@ -22,7 +23,7 @@ export class NetworkRegistryClient extends Client {
   public async getNetworksByType(type: string) {
     return this.callModuleReturn("getNetworksByType", { type });
   }
-  public subscribeToUpdates(cb: () => void) {
+  public subscribeToUpdates(cb: () => void): DataFn {
     const [stop] = this.connectModule("subscribeToUpdates", undefined, cb);
 
     return stop;
