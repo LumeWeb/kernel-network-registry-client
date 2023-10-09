@@ -1,7 +1,7 @@
 import { Client, factory } from "@lumeweb/libkernel/module";
 import type { DataFn } from "@lumeweb/libkernel";
 
-const MODULE = "zdiVGkiECt8CT7psN5wsQyNHewyRJLjPhAGwYGTRXPyAPXP21bdupzHyaw";
+const MODULE = "zrjTCwTcK5Vco1h7cdUQKzs6yzeqm7vC5u5Lo9y1uhTyxnv";
 
 export class NetworkRegistryClient extends Client {
   public async registerType(name: string) {
