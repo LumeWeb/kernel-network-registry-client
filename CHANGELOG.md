@@ -1,3 +1,15 @@
+# [0.1.0-develop.10](https://git.lumeweb.com/LumeWeb/kernel-network-registry-client/compare/v0.1.0-develop.9...v0.1.0-develop.10) (2023-10-09)
+
+
+### Bug Fixes
+
+* explicitly define subscribeToUpdates return type ([c7dcb27](https://git.lumeweb.com/LumeWeb/kernel-network-registry-client/commit/c7dcb2786a32df094a39ac9614ab6c723af74585))
+
+
+### Features
+
+* add subscribeToUpdates method ([dc51de2](https://git.lumeweb.com/LumeWeb/kernel-network-registry-client/commit/dc51de20a7b6003085b97ff72d5a1c9e868210ba))
+
 # [0.1.0-develop.9](https://git.lumeweb.com/LumeWeb/kernel-network-registry-client/compare/v0.1.0-develop.8...v0.1.0-develop.9) (2023-09-09)
 
 # [0.1.0-develop.8](https://git.lumeweb.com/LumeWeb/kernel-network-registry-client/compare/v0.1.0-develop.7...v0.1.0-develop.8) (2023-09-09)
